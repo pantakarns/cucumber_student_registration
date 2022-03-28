@@ -1,0 +1,21 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "testing cucumber automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "athar",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cucumber": "^6.0.5",
+    "gherkin-testcafe": "^5.2.0",
+    "protractor": "^5.4.4",
+    "protractor-cucumber-framework": "^6.2.1",
+    "selenium-webdriver": "^3.6.1",
+    "chromedriver": "^2.37.0"
+  }
+}
